@@ -4,13 +4,13 @@ This is a nonmerchant gateway for Blesta that integrates with [SSLCommerz](https
 
 ## Install the Gateway
 
-1. Upload the source code to a /components/gateways/nonmerchant/sslcommerz/ directory within
+1. Upload the folder `sslcommerz` to a /components/gateways/nonmerchant/ directory within
 your Blesta installation path.
 
     For example:
 
     ```
-    /var/www/html/blesta/components/nonmerchant/sslcommerz/
+    /var/www/html/blesta/components/nonmerchant/
     ```
 
 2. Log in to your admin Blesta account and navigate to
