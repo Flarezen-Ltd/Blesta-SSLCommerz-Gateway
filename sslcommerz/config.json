@@ -1,0 +1,13 @@
+{
+	"version": "1.0.0",
+	"name": "Sslcommerz.name",
+	"description": "Sslcommerz.description",
+	"authors": [
+		{
+			"name": "Md Rafat Hossain | Flarezen Ltd.",
+			"url": "https://flarezen.com"
+		}
+	],
+	"currencies": ["BDT", "USD"],
+	"signup_url": "https://signup.sslcommerz.com/register"
+}
