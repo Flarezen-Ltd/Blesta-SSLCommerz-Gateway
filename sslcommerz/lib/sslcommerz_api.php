@@ -55,7 +55,7 @@ class SslcommerzApi
     private function apiRequest($method, array $params = [], $type = 'GET')
     {
         // Select api url
-        if ($this->dev_mode) {
+        if ($this->dev_mode == 'false') {
             $url = 'https://sandbox.sslcommerz.com/';
         } else {
             $url = 'https://securepay.sslcommerz.com/';

@@ -83,7 +83,7 @@ class Sslcommerz extends NonmerchantGateway
 
         // Set checkbox if not set
         if (!isset($meta['dev_mode'])) {
-            $meta['dev_mode'] = 'false';
+            $meta['dev_mode'] = "false";
         }
 
         $this->Input->setRules($rules);
